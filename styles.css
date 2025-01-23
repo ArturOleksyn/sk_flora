@@ -1,5 +1,5 @@
-section {
-    background: white
+section.jumbotron {
+    background-color: white
 }
 
 body main .row {
@@ -20,12 +20,12 @@ body main .row div:nth-child(3) .card {
 }
 
 body .card {
-    border: node;
+    border: none;
     border-radius: 16px;
     overflow: hidden;
 }
 
-body .card a {
+body .card .btn {
     background-color: #fff;
     border: none;
     overflow: hidden;
@@ -33,29 +33,15 @@ body .card a {
     font-weight: bold;
 }
 
-body .card a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    padding: 3px; 
+body main .row div:nth-child(1) .card .btn {
+    border: 2px solid #FDA090;
 }
 
-body main .row div:nth-child(1) .card a::before {
-    content: '';
-    background: linear-gradient(242.7deg, #FDA090 19.49%, #F86CAD 34.79%);
+body main .row div:nth-child(2) .card .btn {
+    border: 2px solid #90FDF0;
 }
 
-body main .row div:nth-child(2) .card a::before {
-    content: '';
-    background: linear-gradient(242.7deg, #90FDF0 19.49%, #6CCEF8 34.79%);
-}
-
-body main .row div:nth-child(3) .card a::before {
-    content: '';
-    background: linear-gradient(242.7deg, #7DFEC6 19.49%, #68C952 34.79%);
+body main .row div:nth-child(3) .card .btn {
+    border: 2px solid #7DFEC6;
 }
 
