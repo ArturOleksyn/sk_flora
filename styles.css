@@ -1,6 +1,61 @@
+section {
+    background: white
+}
+
+body main .row {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body main .row div:nth-child(1) .card {
+    background: rgba(167, 33, 98, 0.05);
+}
+
+body main .row div:nth-child(2) .card {
+    background: rgba(5, 151, 160, 0.05);
+}
+
+body main .row div:nth-child(3) .card {
+    background: rgba(71, 125, 17, 0.05);
+}
+
 body .card {
-    width: 100%;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+    border: node;
+    border-radius: 16px;
     overflow: hidden;
 }
+
+body .card a {
+    background-color: #fff;
+    border: none;
+    overflow: hidden;
+    color: black;
+    font-weight: bold;
+}
+
+body .card a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    padding: 3px; 
+}
+
+body main .row div:nth-child(1) .card a::before {
+    content: '';
+    background: linear-gradient(242.7deg, #FDA090 19.49%, #F86CAD 34.79%);
+}
+
+body main .row div:nth-child(2) .card a::before {
+    content: '';
+    background: linear-gradient(242.7deg, #90FDF0 19.49%, #6CCEF8 34.79%);
+}
+
+body main .row div:nth-child(3) .card a::before {
+    content: '';
+    background: linear-gradient(242.7deg, #7DFEC6 19.49%, #68C952 34.79%);
+}
+
