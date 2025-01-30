@@ -2,6 +2,23 @@ section.jumbotron {
     background-color: white
 }
 
+body main hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+body main h1 {
+    height: 50px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+body main h1.jumbotron-heading {
+    height: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
 body main .row {
     width: 1000px;
     margin: 0 auto;
@@ -39,17 +56,18 @@ body .card .btn {
     overflow: hidden;
     color: black;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 body main .row div:nth-child(1) .card .btn {
-    border: 2px solid #FDA090;
+    border: 2px solid rgba(248, 108, 173, 1);
 }
 
 body main .row div:nth-child(2) .card .btn {
-    border: 2px solid #90FDF0;
+    border: 2px solid rgba(108, 206, 248, 1);
 }
 
 body main .row div:nth-child(3) .card .btn {
-    border: 2px solid #7DFEC6;
+    border: 2px solid rgba(104, 201, 82, 1);
 }
 
