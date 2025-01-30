@@ -2,6 +2,15 @@ section.jumbotron {
     background-color: white
 }
 
+body header .show {
+    background-color: rgba(229, 84, 115, 0.05) !important;
+}
+
+body header .text-white {
+    color: black !important;
+}
+
+
 body .navbar {
     background: rgba(229, 84, 115, 0.05) !important;
     box-shadow: none !important;
@@ -11,8 +20,8 @@ body .navbar .navbar-brand {
     color: black;
 }
 
-body .navbar .container button:nth-of-type(1) {
-    background: rgba(248, 109, 173, 0.1);
+body .navbar .container button {
+    background-color: rgba(248, 109, 173, 0.1);
     width: 40px;
     height: 40px;
     text-align: center;
