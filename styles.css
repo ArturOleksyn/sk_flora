@@ -2,6 +2,39 @@ section.jumbotron {
     background-color: white
 }
 
+body navbar {
+    background: rgba(229, 84, 115, 0.05) !important;
+    box-shadow: none !important;
+}
+
+body navbar .navbar-brand {
+    color: black;
+}
+
+body navbar .container button:nth-of-type(1) {
+    background: rgba(248, 109, 173, 0.1);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+body navbar .container button:nth-of-type(1) svg {
+    width: 20px
+}
+
+body navbar .container button:nth-of-type(1) svg path {
+    stroke: black;
+    fill-opacity: 1;
+    fill: black;
+}
+
+body .lead {
+    max-width: 500px;
+    margin: 0 auto 3rem;
+}
+
 body main hr {
     margin-bottom: 3rem;
     margin-top: 3rem;
