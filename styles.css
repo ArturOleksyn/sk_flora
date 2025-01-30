@@ -59,7 +59,7 @@ body .card .btn {
     border-radius: 5px;
 }
 
-body .btn:hover {
+body .btn::hover {
     opacity: 0.5
 }
 
