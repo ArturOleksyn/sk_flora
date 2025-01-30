@@ -19,6 +19,12 @@ body .navbar .navbar-brand {
     color: black;
 }
 
+body .navbar .navbar-brand:hover {
+    color: black;
+    opacity: 0.5;
+}
+
+
 body .navbar .container button {
     outline: none;
     background-color: rgba(248, 109, 173, 0.1);
@@ -29,11 +35,15 @@ body .navbar .container button {
     border-radius: 50%;
 }
 
+body .navbar .container button:hover {
+    opacity: 0.5;
+}
+
 body .navbar .container button:nth-of-type(1) svg {
     width: 20px
 }
 
-body .navbar svg path {
+body header svg path {
     stroke: black;
     fill-opacity: 1;
     fill: black;
@@ -41,10 +51,14 @@ body .navbar svg path {
 
 body footer {
     background: rgba(24, 25, 27, 1);
+}
+
+body footer .text-muted {
     color: white !important;
 }
 
-body footer a {
+body footer a,
+body footer a:hover {
     color: white;
 }
 
