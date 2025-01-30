@@ -33,7 +33,7 @@ body .navbar .container button:nth-of-type(1) svg {
     width: 20px
 }
 
-body .navbar .container button:nth-of-type(1) svg path {
+body .navbar svg path {
     stroke: black;
     fill-opacity: 1;
     fill: black;
