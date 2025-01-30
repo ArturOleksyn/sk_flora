@@ -2,14 +2,13 @@ section.jumbotron {
     background-color: white
 }
 
-body header .show {
+body header .bg-dark {
     background-color: rgba(229, 84, 115, 0.05) !important;
 }
 
 body header .text-white {
     color: black !important;
 }
-
 
 body .navbar {
     background: rgba(229, 84, 115, 0.05) !important;
@@ -21,6 +20,7 @@ body .navbar .navbar-brand {
 }
 
 body .navbar .container button {
+    outline: none;
     background-color: rgba(248, 109, 173, 0.1);
     width: 40px;
     height: 40px;
