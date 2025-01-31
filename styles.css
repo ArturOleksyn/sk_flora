@@ -46,7 +46,6 @@ body .navbar .container button:nth-of-type(1) svg {
 body header svg path {
     stroke: black;
     fill-opacity: 1;
-    fill: black;
 }
 
 body footer {
