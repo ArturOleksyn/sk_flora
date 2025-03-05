@@ -1,4 +1,4 @@
-section.jumbotron {
+#index section.jumbotron {
     background-color: white
 }
 
@@ -61,60 +61,60 @@ body footer a:hover {
     color: white;
 }
 
-body .lead {
+#index .lead {
     max-width: 500px;
     margin: 0 auto 3rem;
 }
 
-body main hr {
+body #index hr {
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
 
-body main h1 {
+body #index h1 {
     height: 50px;
     margin-bottom: 30px;
     overflow: hidden;
 }
 
-body main h1.jumbotron-heading {
+body #index h1.jumbotron-heading {
     height: 0px;
     margin-bottom: 0px;
     overflow: hidden;
 }
 
-body main .row {
+body #index .row {
     width: 1000px;
     margin: 0 auto;
 }
 
-body main .row div:nth-child(1) .card {
+body #index .row div:nth-child(1) .card {
     background: rgba(167, 33, 98, 0.04);
 }
 
-body main .row div:nth-child(2) .card {
+body #index .row div:nth-child(2) .card {
     background: rgba(5, 151, 160, 0.05);
 }
 
-body main .row div:nth-child(3) .card {
+body #index .row div:nth-child(3) .card {
     background: rgba(71, 125, 17, 0.05);
 }
 
-body .card {
+body #index .card {
     border: none;
     border-radius: 16px;
     overflow: hidden;
 }
 
-body .card .card-title {
+body #index .card .card-title {
     font-weight: 700;
 }
 
-body .card .card-text {
+body #index .card .card-text {
     color: rgba(39, 39, 39, 0.6)
 }
 
-body .card .btn {
+body #index .card .btn {
     background-color: transparent;
     border: none;
     overflow: hidden;
@@ -123,23 +123,23 @@ body .card .btn {
     border-radius: 5px;
 }
 
-body .btn:hover {
+body #index .btn:hover {
     opacity: 0.5
 }
 
-body main .row div:nth-child(1) .card .btn {
+body #index .row div:nth-child(1) .card .btn {
     border: 2px solid rgba(248, 108, 173, 1);
 }
 
-body main .row div:nth-child(2) .card .btn {
+body #index .row div:nth-child(2) .card .btn {
     border: 2px solid rgba(108, 206, 248, 1);
 }
 
-body main .row div:nth-child(3) .card .btn {
+body #index .row div:nth-child(3) .card .btn {
     border: 2px solid rgba(104, 201, 82, 1);
 }
 
-body .btn-lg {
+body #index .btn-lg {
     border: none;
     background: linear-gradient(242.7deg, #FDA090 19.49%, #F86CAD 34.79%);
     color: white;
